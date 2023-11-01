@@ -79,7 +79,7 @@ class Program
         int phiP = Phi(p);
         return (int)Math.Pow(a, phiP - 1) % p;
     }
-
+     
     static void Main()
     {
         int a = 612;
